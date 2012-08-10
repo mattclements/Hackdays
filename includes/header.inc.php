@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <!--[if IE 7]><link rel="stylesheet" href="/css/font-awesome-ie7.css"><![endif]-->
     <script src="/js/modernizr-2.5.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://sharenice.org/main.css" />   
+	<!--[if IE 6]>
+		<link type="text/css" rel="stylesheet" href="http://sharenice.org/ie6.css" >  
+	<![endif]-->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -29,7 +33,7 @@
     <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
+  <body onLoad="shareNiceLoad()">
   
   <a href="https://github.com/mattclements/Hackdays"><img class="forkme" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 

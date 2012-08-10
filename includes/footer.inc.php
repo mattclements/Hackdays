@@ -1,5 +1,7 @@
 <footer>
         <p>&copy; Hackdays.info <?php if(date('Y')>2012) {echo "2012 - ".date('Y');} else {echo "2012"; } ?></p>
+        
+        <div id="shareNice" style="float:right"></div>
       </footer>
 
     </div> <!-- /container -->
@@ -21,6 +23,7 @@
     <script src="/js/bootstrap-collapse.js"></script>
     <script src="/js/bootstrap-carousel.js"></script>
     <script src="/js/bootstrap-typeahead.js"></script>
+    <script src="http://sharenice.org/code.js" type="text/javascript"></script>
     <script>
 	    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
