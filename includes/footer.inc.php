@@ -1,7 +1,6 @@
 <footer>
+		<div id="shareNice" style="float:right"></div>
         <p>&copy; Hackdays.info <?php if(date('Y')>2012) {echo "2012 - ".date('Y');} else {echo "2012"; } ?></p>
-        
-        <div id="shareNice" style="float:right"></div>
       </footer>
 
     </div> <!-- /container -->
