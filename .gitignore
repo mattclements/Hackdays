@@ -1,0 +1,9 @@
+#OSX Git Ignore
+.DS_Store
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
