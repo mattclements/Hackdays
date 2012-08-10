@@ -2386,6 +2386,17 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
+.forkme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 99999;
+}
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 .btn {
   display: inline-block;
   *display: inline;
