@@ -1,9 +1,13 @@
 Options +FollowSymlinks
 
 RewriteEngine on
+RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
+RewriteCond %{HTTP_HOST} ^www.hackdays.info [NC]
+RewriteRule ^(.*)$ http://hackdays.info/$1 [L,R=301]
+
 
 
 
