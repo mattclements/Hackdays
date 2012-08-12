@@ -36,7 +36,7 @@
 
   <body onLoad="shareNiceLoad()">
   
-  <a href="https://github.com/mattclements/Hackdays"><img class="forkme" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  <!-- <a href="https://github.com/mattclements/Hackdays"><img class="forkme" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
