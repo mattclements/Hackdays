@@ -25,7 +25,7 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/includes/header.inc.php');
 <div class="span4">
   <h2>Conference</h2>
   <p>Conferences are sometimes also called seminars, which are usually smaller groups of delegates, or symposiums &ndash; a conference or meeting to discuss a particular subject. Whatever the title, and whatever the subject, one thing is instrumental to them all: that is <i>communication.</i> <a href="http://www.howto.co.uk/business/conference-management/what_is_a_conference/" target="_blank">[Definition]</a></p>
-  <p><a class="btn" href="#">View Conferences &raquo;</a></p>
+  <p><a class="btn" href="/events?type=conference">View Conferences &raquo;</a></p>
 </div>
 </div>
 
